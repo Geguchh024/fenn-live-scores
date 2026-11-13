@@ -1,0 +1,12 @@
+# Football (Georgia and the Erovnuli Liga included), UFC, rugby and the NBA
+# from ESPN's and TheSportsDB's free feeds; the tile shows your team's match
+# with crests.
+id = "live-scores"
+name = "Live Scores"
+icon = "soccer-ball"
+size = "wide"
+run = ["python", "main.py"]
+page_size = [600, 440]
+description = "Follow football clubs and national teams (Georgia and the Erovnuli Liga included), UFC fighters, rugby and NBA teams. Crests, live minute, goal scorers, league tables and full UFC cards; alerts on goals, kick-off, full time and fight results."
+author = "Fenn"
+version = "2.0.0"
